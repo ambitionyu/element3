@@ -21,6 +21,7 @@ import Row from '../packages/row/index.js';
 import Col from '../packages/col/index.js';
 import Progress from '../packages/progress/index.js';
 import Badge from '../packages/badge/index.js';
+import Card from '../packages/card/index.js';
 import Rate from '../packages/rate/index.js';
 import Carousel from '../packages/carousel/index.js';
 import Scrollbar from '../packages/scrollbar/index.js';
@@ -31,6 +32,7 @@ import Main from '../packages/main/index.js';
 import Footer from '../packages/footer/index.js';
 import Link from '../packages/link/index.js';
 import Divider from '../packages/divider/index.js';
+import Image from '../packages/image/index.js';
 import Backtop from '../packages/backtop/index.js';
 import Avatar from '../packages/avatar/index.js';
 import locale from 'element-ui/src/locale';
@@ -59,6 +61,7 @@ const components = [
   Col,
   Progress,
   Badge,
+  Card,
   Rate,
   Carousel,
   Scrollbar,
@@ -69,6 +72,7 @@ const components = [
   Footer,
   Link,
   Divider,
+  Image,
   Backtop,
   Avatar,
    CollapseTransition
@@ -133,6 +137,7 @@ export default {
   Col,
   Progress,
   Badge,
+  Card,
   Rate,
   Carousel,
   Scrollbar,
@@ -143,6 +148,7 @@ export default {
   Footer,
   Link,
   Divider,
+  Image,
   Backtop,
   Avatar
 };

@@ -70,6 +70,8 @@ var listTemplate = []
 ComponentNames.forEach((name) => {
   if (
     [
+      'image',
+      'card',
       'alert',
       'scrollbar',
       'backtop',
